@@ -6,7 +6,7 @@ import com.ccm.androidroom.Word;
 import com.ccm.androidroom.WordDao;
 import com.ccm.androidroom.WordRoomDatabase;
 
-private static class PopulateDbAsync extends AsyncTask<Void, Void, Void> {
+class PopulateDbAsync extends AsyncTask<Void, Void, Void> {
 
     private final WordDao mDao;
 
