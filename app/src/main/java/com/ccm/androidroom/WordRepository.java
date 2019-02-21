@@ -6,8 +6,6 @@ import android.os.AsyncTask;
 
 import java.util.List;
 
-import com.ccm.androidroom.WordRoomDatabase;
-
 public class WordRepository {
 
     private WordDao mWordDao;

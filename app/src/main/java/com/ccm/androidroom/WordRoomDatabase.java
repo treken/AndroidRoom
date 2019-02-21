@@ -5,9 +5,6 @@ import android.arch.persistence.room.Room;
 import android.arch.persistence.room.RoomDatabase;
 import android.content.Context;
 
-import com.ccm.androidroom.Word;
-import com.ccm.androidroom.WordDao;
-
 /* Annotate the class to be a Room database, declare the entities that belong
  * in the database and set the version number. Listing the entities will
  * create tables in the database.
